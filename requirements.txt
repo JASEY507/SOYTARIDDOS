@@ -1,0 +1,6 @@
+requests
+httpx
+pysocks
+undetected-chromedriver
+colorama
+urllib3
