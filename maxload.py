@@ -4,14 +4,14 @@ from fake_useragent import UserAgent
 
 ua = UserAgent()
 
-TARGET = ""   # Boş bırakıldı. Hedef yok, saldırı yok.
+TARGET = ""   # Boş. Saldırı yok. Sadece gizlilik testi.
 CONNECTIONS = 200
 DELAY = 0.01
 
 async def worker(session):
     while True:
         if TARGET == "":
-            print("[!] TARGET BOŞ — İŞLEM YAPILMIYOR")
+            print("[!] TARGET boş. Hiçbir siteye bağlanılmıyor.")
             await asyncio.sleep(1)
             continue
         
