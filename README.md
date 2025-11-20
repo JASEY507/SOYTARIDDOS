@@ -5,9 +5,9 @@ SOYTARIDDOS will be used to crash or damage a website. Please use this tool only
 
 
 
-
-
-
+-------------------
+ŞİFRE: DDOS
+-------------------
 
 
 
