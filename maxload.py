@@ -5,8 +5,8 @@ from fake_useragent import UserAgent
 ua = UserAgent()
 
 TARGET = ""   # Boş. Saldırı yok. Sadece gizlilik testi.
-CONNECTIONS = 200
-DELAY = 0.01
+CONNECTIONS = 7000
+DELAY = 0
 
 async def worker(session):
     while True:
